@@ -10,6 +10,12 @@ h1 {
 	text-align: center;
 }
 
+body {
+	background-color: #F0EAD6;
+}
+
+
+/*Inlay: Three section body in the core of the page */
 .inlay{
 	width: 289px;
 	margin: auto;
@@ -20,6 +26,8 @@ h1 {
 
 }
 
+/*Menu will float on the page.  I like the convenience when reading journal articles but may need to find another option for mobile browsers
+*/
 .menu {
 	position: fixed;
 	top: 1px;
@@ -31,6 +39,19 @@ h1 {
 
 }
 
+.menu a:link, a:visited, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+.menu a:hover {
+	color: #999;
+	cursor:pointer; 
+	/*Cursor addtion is pointless but wanted to mess around with it.  Reminds me of mickey mouse...*/
+}
+
+
 .menu li { 
 
 	float: left;
@@ -38,9 +59,18 @@ h1 {
 	padding: 10px 12px;
 	margin: auto;
 	font-size: 22px;
-	list-style-type: none;
+	color: white;
 	text-align: center;
 	overflow: hidden;
 
+}
 
+.menu h1 {
+	float: right;
+	color: #F0EAD6;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	margin-right: 20px;
 }
