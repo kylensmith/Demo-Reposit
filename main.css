@@ -1,0 +1,46 @@
+.wrap {
+ 
+	width: 900px;
+	height: 12000px;
+	margin: auto;
+	border-style: groove;
+}
+
+h1 {
+	text-align: center;
+}
+
+.inlay{
+	width: 289px;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+
+.menu {
+	position: fixed;
+	top: 1px;
+	left: -5px;
+	width: 100%;
+	border-style: solid;
+	border-color: #999;
+	background-color: #642834;
+
+}
+
+.menu li { 
+
+	float: left;
+	display: block;
+	padding: 10px 12px;
+	margin: auto;
+	font-size: 22px;
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+
+
+}
