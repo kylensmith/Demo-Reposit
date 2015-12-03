@@ -1,3 +1,7 @@
+* {
+	cursor:pointer;
+}
+
 .wrap {
  
 	width: 900px;
@@ -42,8 +46,16 @@ body {
 	background-image: url(menu.jpg);
 	/*background: #642834;*/
 	z-index: 2;
+	
+	/*This is a transition feature used with the menu hover to expand the nav menu.  Can't be used it menu width is always at 100%*/
+	/*transition: width 2s;
+    transition-delay: 0.5s;*/
 }
 
+/*Demo expandable to use with transition feature*/
+/*.menu:hover {
+	width: 100%;
+}*/
 
 .menu a:link, a:visited, a:active {
 	color: white;
@@ -84,4 +96,5 @@ body {
 	margin: 0;
 	margin-right: 20px;
 	z-index: 5;
+	font: ;
 }
